@@ -41,7 +41,7 @@ class MBScrab:
 		return wb_frame
 
 header={"user-agent":"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.10 (KHTML, like Gecko) Chrome/2.0.157.0 Safari/528.10",}
-wbs=MBScrab("18571014813","052cd138049",header)
+wbs=MBScrab("*","******",header)
 wbs.scrab_one_user("yangmiblog",3).to_csv("weibo.csv",encoding="utf-8",index=False)      
   
         
