@@ -22,7 +22,7 @@ sys.setdefaultencoding('utf-8')
 
 def log_scrab(uid, num):
     # # 输入邮箱（账号）,密码
-    # weiboLogin = WeiboLogin.WeiboLogin('whuxgxj@sina.com', '052cd138049')
+    # weiboLogin = WeiboLogin.WeiboLogin('****', '8****')
     # # 模拟登陆
     # weiboLogin.Login()
     # 初始化页面获取类
@@ -121,7 +121,7 @@ def get_usr_info_table():
 
 if __name__ == '__main__':
     # 登陆
-    weiboLogin = WeiboLogin.WeiboLogin('18571014813', '052cd138049')
+    weiboLogin = WeiboLogin.WeiboLogin('****', '******9')
     weiboLogin.Login()
 
     # 登录并抓取用户微博
